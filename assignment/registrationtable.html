@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1px solid black">
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>IC No</td>
+          <td>
+            <input type="text" name="icno" />
+          </td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td><textarea name="address" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td>Geneder</td>
+          <td>
+            <input type="radio" name="male" /><label for="male">Male</label>
+            <input type="radio" name="female" /><label for="female"
+              >Female</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Dance type</td>
+          <td>
+            <input type="checkbox" name="zapin" /><label for="zapin"
+              >Zapin</label
+            >
+            <input type="checkbox" name="joget" /><label for="joget"
+              >Joget</label
+            >
+            <input type="checkbox" name="inang" /><label for="inang"
+              >Inang</label
+            >
+            <input type="checkbox" name="lion" /><label for="lion"
+              >Lion Dance</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Competition</td>
+          <td>
+            <select name="level" size="3">
+              <option value="statelevel">State level</option>
+              <option value="nationallevel">National level</option>
+              <option value="internationlevel">International level</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Nationality</td>
+          <td>
+            <select name="nationality">
+              <option value="please select">please select</option>
+              <option value="indian">Indian</option>
+              <option value="others">Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="submit" name="registerme" value="Register me" />
+    <input type="submit" name="cancel" value="Cancel" />
+  </body>
+</html>
