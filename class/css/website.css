@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+  box-shadow: 20px 0px 30px greenyellow;
+  border-radius: 50%;
+  width: 20%;
+  margin: 3% 0% 10% 40%;
+  padding: 5px;
+}
+nav {
+  margin-top: -75px;
+  background-color: green;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  position: sticky;
+  top: 0%;
+}
+nav a {
+  font-size: x-large;
+  color: white;
+  margin-left: 37px;
+  margin-right: 37px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: yellow;
+}
+#home {
+  margin-top: 50px;
+}
+h1:hover {
+  background-color: greenyellow;
+  color: green;
+}
+img {
+  height: 350px;
+  width: 350px;
+  box-shadow: 10px 0 30px green;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+#about {
+  background-color: greenyellow;
+  border-radius: 50%;
+  box-shadow: 10px 0 30px green;
+  margin-left: 600px;
+  margin-top: -300px;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+p {
+  width: 300px;
+  height: 300px;
+  font-size: 15px;
+  font-family: cursive;
+  text-align: justify;
+  margin-left: 650px;
+  margin-top: -300px;
+}
+h3 {
+  margin-top: 10%;
+  color: green;
+  text-align: center;
+  box-shadow: 10px 0px 30px green;
+  font-size: small;
+  padding: 10px;
+}

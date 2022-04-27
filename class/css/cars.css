@@ -1,0 +1,13 @@
+body {
+  background-image: url(/image5.jpg);
+  background-size: cover;
+}
+#name {
+  font-size: 100px;
+  color: aliceblue;
+  margin-top: 40px;
+  text-align: center;
+}
+.pages {
+  background-color: whitesmoke;
+}

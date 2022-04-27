@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" style="border: 2px solid black; width: 20%; padding: 30px">
+      <label for="fname">FirstName</label><br />
+      <input type="text" id="firstName" /> <br />
+      <br />
+      <label for="lname">LastName</label><br />
+      <input type="text" id="lastName" /> <br /><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" /> <br /><br />
+      <!-- <label for="phoneNumber">PhoneNumber</label><br />
+      <input type="number" id=phoneNumber" /> <br /><br /> -->
+      <label for="password">Password</label><br />
+      <input type="password" id="password" /> <br /><br />
+      <button type="button" onclick="myFunction()">submit</button><br />
+    </form>
+    <script>
+      let details = [];
+      function myFunction() {
+        const fname = document.getElementById("firstName").value;
+        const lname = document.getElementById("lastName").value;
+        const email = document.getElementById("email").value;
+        // const phoneNumber = document.getElementById("phoneNumber").value;
+        const password = document.getElementById("password").value;
+        // let data =
+        //   "full name = " +
+        //   fname +
+        //   "last name = " +
+        //   lname +
+        //   "email = " +
+        //   email +
+        //   "password = " +
+        //   password;
+        let data = {
+          fname: document.getElementById("firstName").value,
+          lname: document.getElementById("lastName").value,
+          email: document.getElementById("email").value,
+          // phoneNumber: document.getElementById("phoneNumber").value,
+          password: document.getElementById("password").value,
+        };
+        details.push(data);
+        console.log(details);
+      }
+    </script>
+  </body>
+</html>

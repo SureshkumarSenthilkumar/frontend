@@ -1,0 +1,20 @@
+h2 {
+  background-color: brown;
+}
+p {
+  background-color: antiquewhite;
+  color: blueviolet;
+}
+div h2 {
+  background-color: chocolate;
+}
+div h1 {
+  color: chartreuse;
+}
+* {
+  margin: 20px;
+}
+img[alt] {
+  height: 50px;
+  width: 50px;
+}

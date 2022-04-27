@@ -1,0 +1,42 @@
+.green {
+  background-color: green;
+  height: 100px;
+  width: 324px;
+  border: 2px solid black;
+  margin: 4px;
+}
+.middle {
+  display: flex;
+}
+.middle img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 4px;
+}
+.end {
+  display: flex;
+  margin: 4px;
+}
+.end #orange {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin-right: 4px;
+}
+.end #red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.end #blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin-left: 4px;
+}

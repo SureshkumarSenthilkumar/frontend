@@ -1,0 +1,25 @@
+.fontsize {
+  color: aqua;
+  font-size: xx-large;
+}
+#id1 {
+  color: brown;
+  font-family: sans-serif;
+}
+#id2 {
+  color: yellowgreen;
+  font-family: "Courier New", Courier, monospace;
+}
+#id3 {
+  color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#id3:hover {
+  color: violet;
+}
+a:hover {
+  color: chartreuse;
+}
+a:visited {
+  color: yellow;
+}
